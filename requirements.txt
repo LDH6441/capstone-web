@@ -8,3 +8,9 @@ joblib>=1.3
 google-genai
 shap
 xgboost
+catboost
+numba
+scipy
+statsmodels
+category_encoders
+imbalanced-learn
