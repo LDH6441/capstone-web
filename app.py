@@ -16,7 +16,7 @@ from google.genai import types as genai_types
 # ==========================================
 # 1. 페이지 및 기본 설정
 # ==========================================
-st.set_page_config(page_title="청년 마음 건강 체크인", page_icon="🌱", layout="wide")
+st.set_page_config(page_title="청년 마음 건강 체크인", page_icon="", layout="wide")
 
 # Gemini API 설정
 GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY', 'AIzaSyD_QpV-qtEpPtfabD49NbHh_j7jXOGNSqM')
@@ -170,7 +170,7 @@ def compute_top_reasons(X, pred_class, payload, artifacts, top_k=3):
 # ==========================================
 # 4. Streamlit UI (화면 구성)
 # ==========================================
-st.title("🌱 청년 마음 건강 체크인 AI")
+st.title(" 청년 마음 건강 체크인 AI")
 
 if not ARTIFACTS:
     st.error("서버에 모델이 로드되지 않았습니다. 관리자에게 문의하세요.")
