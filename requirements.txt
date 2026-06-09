@@ -7,3 +7,4 @@ pycaret>=3.3.0
 joblib>=1.3
 google-genai
 shap
+xgboost
